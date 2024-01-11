@@ -1,0 +1,284 @@
+body {
+  background-color: #0F0E0E;
+}
+
+h1 {
+  color: #fff;
+  display: inline;
+  margin-left: 245px;
+
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li a {
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: #98aeae;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+
+
+}
+
+li a:hover {
+  color: whitesmoke;
+
+}
+
+.navbar {
+  padding: 0;
+  margin-left: -10px;
+  margin-top: 11px;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  background-color: black;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
+
+}
+
+
+.vvip {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  height: 300px;
+  width: 90%;
+  background-color: black;
+}
+
+.hnavbar {
+
+  display: flex;
+  width: 100vw;
+  ;
+  /* position: fixed; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  height: 60px;
+  top: 0;
+  left: 0;
+
+}
+
+
+.search input[type="text"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1f1f1e;
+}
+
+/* .search button {
+  padding: 8px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+} */
+
+.nav-links {
+  display: flex;
+  margin-right: 30px;
+  margin-left: 10px;
+
+}
+
+
+.album-container {
+
+  margin: 50px 20px;
+  padding: 20px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.album-grid {
+  
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  gap: 50px;
+  margin-left: 310px;
+  border-radius: 0;
+  
+
+
+
+
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.album img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.album h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.album:hover {
+  transform: translateY(-3px);
+  color: #838383;
+  background-color: #211f1f;
+  box-shadow: 0 5px 10px rgba(43, 41, 41, 0.8);
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.singer {
+  color: #555;
+  margin-top: 2px;
+}
+
+.playbar {
+  background-color: rgb(16, 12, 12);
+  width: 100%;
+  position: fixed;
+  height: fit-content;
+  color: #1c1616;
+  bottom: -9px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: -20px;
+}
+
+.lowerContainer {
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.5em;
+  width: fit-content;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  color: blue;
+  width: 100%;
+}
+
+
+.album-grid2 {
+  margin-top: 80px;
+  display: flex;
+  float: right;
+  width: 50%;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 75vh;
+}
+
+.song {
+  width: 100%;
+  background-color: #000000;
+
+
+
+}
+
+.left {
+  display: flex;
+  float: left;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  position: fixed;
+}
+
+.song img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.song h4 {
+
+  color: #fff;
+  margin-left: 100px;
+}
+
+hr {
+  width: 100%;
+  color: silver;
+}
+
+.leftphoto {
+  width: 400px;
+  height: 400px;
+
+
+}
+.albums{
+height: 40vh;
+}
